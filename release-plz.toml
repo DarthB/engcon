@@ -7,7 +7,11 @@ pr_labels = ["release"] # add the `release` label to the release Pull Request
 name = "engcon"
 semver_check = true
 changelog_include = ["engcon_macros"]
-changelog_path = "CHANGELOG.md"
+changelog_path = "../CHANGELOG.md"
+
+[[package]]
+name = "engcon_macros"
+release = false # don't check the example
 
 [[package]]
 name = "engcon_distillation"
