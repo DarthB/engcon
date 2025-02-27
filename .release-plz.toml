@@ -1,0 +1,14 @@
+[workspace]
+pr_branch_prefix = "release-plz-" # PR branch prefix
+pr_name = "Release {{ package }} v{{ version }}" # template for the PR name
+pr_labels = ["release"] # add the `release` label to the release Pull Request
+
+[[package]]
+name = "engcon"
+semver_check = true
+changelog_include = ["engcon_macros"]
+changelog_path = "CHANGELOG.md"
+
+[[package]]
+name = "engcon_distillation"
+release = false # don't check the example
