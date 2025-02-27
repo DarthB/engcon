@@ -1,0 +1,27 @@
+[package]
+name = "engcon_macros"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tim Janus <tim@janus.rs>"]
+license = "MIT OR Apache-2.0"
+
+description = "Helpful macros to define contracts for constraints at rust struct level."
+#keywords = ["engineering", "contracts"]
+#categories = []
+
+#documentation = "https://docs.rs/strum"
+homepage = "https://github.com/DarthB/engcon"
+repository = "https://github.com/DarthB/engcon"
+readme = "README.md"
+
+[lib]
+path = "src/lib.rs"
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0", features = ["extra-traits"] }
+quote = { version = "1.0" }
+proc-macro2 = { version = "1.0" }
+
+[dev-dependencies]
+engcon = { path = "../engcon" }

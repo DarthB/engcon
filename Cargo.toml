@@ -1,0 +1,3 @@
+[workspace]
+members = ["engcon", "engcon_macros", "examples/distillation"]
+resolver = "2"
