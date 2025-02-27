@@ -2,6 +2,8 @@
 name = "engcon_distillation"
 version = "0.1.0"
 edition = "2021"
+authors = ["Tim Janus <tim@janus.rs>"]
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 engcon = { path = "../../engcon", features = ["derive"] }

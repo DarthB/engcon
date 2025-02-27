@@ -1,6 +1,6 @@
 //! # EngCon
 //!
-//! EngCon is a set of macros and traits defining contracts often found in
+//! EngCon (Engineering Contracts) is a set of macros and traits defining contracts often found in
 //! engineering problems, e.g. the design of a distilation column.
 //!
 //! This crate only contains derive macros for use with the
@@ -37,6 +37,10 @@ mod validator;
 ///     pub distiliate_to_feed_ratio: f32,
 /// }
 /// ```
+///
+/// # Generated Code
+///
+///
 #[proc_macro_derive(Validatable, attributes(validate_value))]
 pub fn validate(input: proc_macro::TokenStream) -> proc_macro::TokenStream {
     // Parse the input tokens into a syntax tree

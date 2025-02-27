@@ -5,14 +5,14 @@ edition = "2021"
 authors = ["Tim Janus <tim@janus.rs>"]
 license = "MIT OR Apache-2.0"
 
-description = "Helpful macros to define contracts for constraints at rust struct level."
-#keywords = ["engineering", "contracts"]
-#categories = []
+description = "Helpful macros to define (eng)ineering (con)tracts on data-structure level"
+keywords = ["engineering", "contracts", "validation", "rules"]
+categories = ["data-structures", "science"]
 
-#documentation = "https://docs.rs/strum"
+documentation = "https://docs.rs/engcon"
 homepage = "https://github.com/DarthB/engcon"
 repository = "https://github.com/DarthB/engcon"
-readme = "README.md"
+readme = "../README.md"
 
 [features]
 derive = ["engcon_macros"]

@@ -1,6 +1,6 @@
 //! # EngCon
 //!
-//! EngCon is a set of macros and traits defining contracts often found in
+//! EngCon (Engineering Contracts) is a set of macros and traits defining contracts often found in
 //! engineering problems, e.g. the design of a distilation column.
 //!
 //! # Including EngCon in your Project
